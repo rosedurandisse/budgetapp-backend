@@ -27,6 +27,13 @@ module.exports = [
     from: "confusion",
     category: "bank",
   },
+  {
+    item_name: "birthday money",
+    amount: 40,
+    date: "Sepemtber 26,2022",
+    from: "aunties",
+    category: "bank",
+  },
 
   //     item_name- string - the name of the transaction (ie: income, savings, cat food, etc.)
   // amount -number - the amount of the transaction
