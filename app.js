@@ -6,7 +6,7 @@ app.use((cors()));
 app.use((express.json()));
 
 app.get('/',(request,response) => {
-    response.send("Welcone to the budgeting app")
+    response.send("Welcome to the budgeting app")
 })
 
 
