@@ -12,7 +12,7 @@ app.get("/", (request, response) => {
   response.send("Welcome to the budgeting app");
 });
 
-app.get((request, response) => {
+app.get("*", (request, response) => {
   response.status(404).json({ error: "Page not found" });
 });
 
