@@ -1,7 +1,6 @@
 const dotenv = require('dotenv'); //requires the dotenv library
 const app = require('./app'); //requires the information in the app file
 
-dotenv.config();
 const PORT = process.env.PORT
 
 app.listen(PORT,() => {
