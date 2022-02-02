@@ -4,8 +4,8 @@ const cors = require("cors");
 
 const budgetingControllers = require("./controllers/budgetingControllers");
 
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 app.use("/transactions", budgetingControllers);
 
 app.get("/", (request, response) => {
